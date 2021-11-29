@@ -5,7 +5,7 @@ const locations = [
   lat:29.6424935,
   title: 'Bandera Endurance Trail Run',
   races: `<i>100k</i>, 50k, 25k, Youth Trail Run`,
-  banner: `https://doc-08-bg-mymaps.googleusercontent.com/untrusted/hostedimage/q6hcfa588f6kpjujbjtckbce90/rjl68pu4318f141alt8guo2808/1638047879000/uHD6OSnEXJ-ke1CRL--DKLw47dcv6FCa/03400294955866176041/5AIsG_vbJkcyikHdPw5a9zc0gD9y8_cRqXx_bzqUo3sEJFdzTq_ZzavTX2FeMH9y4rUczpoKGJloFnDNyWabDkNuA5JPyUEutzGUIiCunwyE5smX55LDrUddM3E-IJ4nlbj80hec4Nm6gVY9qwRRpGm3C8l_E9zpHCk0g3tJLUOSS-A_jpRUrSx8hiRmZvktYwtQWwqo?session=0&fife`
+  banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1611252331504-FE3LTVLIJ3TEELQYWRQF/Tinajas+Trail+Race?format=500w`
 },
 {
   long:-95.5223628,
@@ -82,3 +82,7 @@ function initMap() {
   })
 
 }
+
+
+let selectBox = new vanillaSelectBox("#monthSelect",{"maxHeight":200,search:true});
+console.log(selectBox);
