@@ -8,6 +8,7 @@ const locations = [
     address: `565 Park Road 40 West, Huntsville, TX 77340`,
     title: `HOKA Rocky Raccoon 100 Trail Race`,
     races: `100mi, 100k, Youth 1mi`,
+    racesAvailable: ['100mi', '100k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/2ca7f7c6-7c48-481a-bb18-36c4b4f780d8/HOKA+Rocky+Raccoon+100+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/rocky100`
   },
@@ -19,17 +20,19 @@ const locations = [
     address: `565 Park Road 40 West, Huntsville, TX 77340`,
     title: `HOKA Rocky 50 Trail Race`,
     races: `50 mi, 50k, 13.1 mi (1/2 Marathon), Youth 1 mi`,
+    racesAvailable: ['50mi', '50k', '13.1mi', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/a9a95d88-6caf-40aa-9931-a746dad4e51a/HOKA+Rocky+50+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/rocky50`,
   },
   {
-    lat:29.977131510271686,
-    long:-99.95879251613108,
+    lat:29.97720179603983,
+    long:-99.9588799957113,
     date: `March 10-11, 2023`,
     where: `Camp Eagle`,
     address: `6424 Hackberry Rd, Rocksprings, TX 78880`,
     title: `J&J Race & Trail Running Reunion`,
     races: `50 mi, 30 mi, 20 mi, 10 mi, 4 mi, Youth 1 mi, 20 mi (3-person) Relay, 20 mi Ruck, 4 mi Ruck, King & Queen of the Hill (~1 mi)`,
+    racesAvailable: ['50mi', '30mi', '20mi', '10mi', '4mi', '1miy', '20mi', '4mi'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1603737379712-7FL5YVTNOXB2CVOINR6P/J%26J.jpg?format=500w`,
     url: `https://www.tejastrails.com/jandj`,
   },
@@ -41,6 +44,7 @@ const locations = [
     address: `Rocky Hill Ranch, SMITHVILLE, TX`,
     title: `Hells Hills Trail Race`,
     races: `50 mi, 50k, 25k, 10k, 25k Ruck, 10k Ruck, Youth 1 mi`,
+    racesAvailable: ['50mi', '50k', '25k', '10k', '25k', '10k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615247500096-CNWUKYNYMTQU90XJYHHZ/HELLS+HILLS.jpg?format=300w`,
     url: `https://www.tejastrails.com/hellshills`,
   },
@@ -52,6 +56,7 @@ const locations = [
     address: `Reveille Peak Ranch, Burnet, TX`,
     title: `Pandora’s Box Of Rox Trail Race`,
     races: `52.4 mi, 26.2 mi, 13.1 mi, 8 mi, 4 mi, Youth 1 mi`,
+    racesAvailable: ['52.4mi', '26.2mi', '13.1mi', '8mi', '4mi', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615248807439-4348YO8L168KO945W2YB/PANDORA+LOGO.jpg?format=300w`,
     url: `https://www.tejastrails.com/pandora`,
   },
@@ -63,6 +68,7 @@ const locations = [
     address: `Spider Mountain Bike Park, Burnet, TX   `,
     title: `Spider Mountain Trail Race`,
     races: `4 mi, 8 mi, 12 mi, 12 mi Ruck, 4 mi Ruck, Youth 1 mi (By Time) 6 hour, 9 hour, 12 hour/relay`,
+    racesAvailable: ['4mi', '8mi', '12mi', '12mi', '4mi', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1618003845015-W2K55Y8LH7WZXZYG0J87/SPIDER+MOUNTAIN.jpg?format=300w`,
     url: `https://www.tejastrails.com/spider`,
   },
@@ -74,6 +80,7 @@ const locations = [
     address: `Krause Springs, 424 County Road 404, Spicewood TX 78669`,
     title: `Texas Trail Running Festival`,
     races: `26.2 mi, 13.1 mi, 10k, 5k, Youth 1 mi`,
+    racesAvailable: ['26.2mi', '13.1mi', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615411718182-XY18S32T3RTSSYJ7P8HT/FESTIVAL.png?format=300w`,
     url: `https://www.tejastrails.com/festival`,
   },
@@ -84,7 +91,8 @@ const locations = [
     where: `Pedernales Falls State Park`,
     address: `Pedernales Falls State Park, Johnson City, TX`,
     title: `Capt'n Karl's Pedernales Falls`,
-    races: `60km, 30km, 20km, 10km, 5km, youth 1 mi`,
+    races: `60k, 30k, 20k, 10k, 5k, youth 1 mi`,
+    racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105034732-YUIKI89Z50JHEUGVKXXN/CKTS-Pedernales.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-pedernales`,
   },
@@ -96,6 +104,7 @@ const locations = [
     address: `, Spicewood, TX`,
     title: `Capt'n Karl's Muleshoe Bend`,
     races: `60k, 30k, 20k, 10k, 5k, youth 1 mi. `,
+    racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105122846-SYZXIRWOPB2G98OSSW4E/CKTS-Muleshoe.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-muleshoe`,
   },
@@ -107,6 +116,7 @@ const locations = [
     address: `COLORADO BEND STATE PARK, BEND, TX`,
     title: `Capt'n Karl's Colorado Bend`,
     races: `60k, 30k, 20k, 10k, youth 1 mi`,
+    racesAvailable: ['60k', '30k', '20k', '10k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616104938720-VM6ZYVR6I9SKRMBY79NC/CKTS-Colorado.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-colorado`,
   },
@@ -117,7 +127,8 @@ const locations = [
     where: `Reveille Peak Ranch`,
     address: `Reveille Peak Ranch, Burnet, TX`,
     title: `Capt'n Karl's Reveille Peak Ranch`,
-    races: `60km, 30km, 20km, 10km, 5km, youth 1 mi`,
+    races: `60k, 30k, 20k, 10k, 5k, youth 1 mi`,
+    racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105224553-G1NS07Z9IVV00AV9RVX6/CKTS-ReveillePeak.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-reveille`,
   },
@@ -129,6 +140,7 @@ const locations = [
     address: `2011 Pace Bend Rd N, Spicewood TX`,
     title: `Mellow Trail Race`,
     races: `26.2 mi, 13.1 mi, 10k, 5k, youth 1 mi`,
+    racesAvailable: ['26.2mi', '13.1mi', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615670833061-H0LGW5CK3YRISDVF12ZM/MELLOW+LOGO+%28Med%29.jpg?format=300w`,
     url: `https://www.tejastrails.com/mellow`,
   },
@@ -140,6 +152,7 @@ const locations = [
     address: `14222 Park Road 57, Somerville, TX 77879`,
     title: `The Trailway Trail Race`,
     races: `50k, 26.2 mi, 13.1 mi, 10k, 26 mi Ruck, 10k Ruck, 5k, youth mi 1`,
+    racesAvailable: ['50k', '26.2mi', '13.1mi', '10k', '26mi', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1623513467831-JVTJTWRQ4G5L1T2LT2ZZ/Trailway+%28Small+BW%29.jpeg?format=300w`,
     url: `https://www.tejastrails.com/trailway`,
   },
@@ -151,6 +164,7 @@ const locations = [
     address: `10600 Bandera Creek Rd, Bandera, TX 78003`,
     title: `Cactus Rose Endurance Trail Race`,
     races: `5 mi, 25 mi, 50 mi, 100 mi, 5 mi ruck, 25 mi ruck, youth 1 mi`,
+    racesAvailable: ['5mi', '25mi', '50mi', '100mi', '5mi', '25mi', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615674040760-FURMZ9XUC0IJLCLMB9X5/CACTUS+ROSE.png?format=300w`,
     url: `https://www.tejastrails.com/cactus`,
   },
@@ -162,6 +176,7 @@ const locations = [
     address: `Marble Falls High School, Mustang Stadium, Marble Falls, TX`,
     title: `Hill Country Trivium Road Race`,
     races: `50k, 26.2 mi, 13.1 mi, 10k, 5k, Phoenix Family Fun Run`,
+    racesAvailable: ['50k', '26.2mi', '13.1mi', '10k', '5k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/397f6986-9b6b-4f23-8be1-b4838ab72f1f/TRIVIUM+LOGO.jpg?format=300w`,
     url: `https://www.tejastrails.com/trivium`,
   },
@@ -173,6 +188,7 @@ const locations = [
     address: `537 Owl Creek Road, Warda, TX 78960`,
     title: `Wild Hare Trail Race`,
     races: `50 mi, 50k, 25k, 10k, youth 1 mi`,
+    racesAvailable: ['50mi', '50k', '25k', '10k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615833743638-RU08K4CQ6OJGNB2K8V84/WILD+HARE.png?format=300w`,
     url: `https://www.tejastrails.com/wild`,
   },
@@ -184,6 +200,7 @@ const locations = [
     address: `500 Becker Rd, Liberty Hill, TX 78642`,
     title: `Mosaic Trail Race`,
     races: `50k, 26.2 mi, 13.1 mi, 15k, 10k, 5, youth 1 mi, youth 2 mi`,
+    racesAvailable: ['50k', '26.2mi', '13.1mi', '15k', '10k', '5k', '1miy', '2miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615838161875-GCVDXWYENC83MFUS6Q8C/MOSAIC.jpg?format=300w`,
     url: `https://www.tejastrails.com/mosaic`,
   },
@@ -195,6 +212,7 @@ const locations = [
     address: `Colorado Bend State Park, Bend, TX`,
     title: `Tinajas Trail Race`,
     races: `52.4 mi, 26.2 mi, 13.1 mi, 10k, Youth 1 mi`,
+    racesAvailable: ['52.4mi', '26.2mi', '13.1mi', '10k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/303424b8-aadd-499c-a8eb-bae69b765519/tinajas.jpg?format=300w`,
     url: `https://www.tejastrails.com/tinajas`,
   },
@@ -206,6 +224,7 @@ const locations = [
     address: `10600 Bandera Creek Rd, Bandera, TX 78003`,
     title: `HOKA Bandera Endurance Trail Race`,
     races: `100k, 50k, 25k, Youth 1 mi`,
+    racesAvailable: ['100k', '50k', '25k', '1miy'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/f4762700-1a1a-48cd-bfcf-f31b21c780fc/HOKA+Bandera+Endurance+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/bandera`,
   },
@@ -214,7 +233,7 @@ const locations = [
 
 const icon = './running.png'
 
-function infoWindowContent (title, date, races, url, banner ) {
+function infoWindowContent (title,where, date, races, url, banner ) {
   return (
     `
     <div id="content">
@@ -222,9 +241,10 @@ function infoWindowContent (title, date, races, url, banner ) {
     </div>
     <h1 id="firstHeading" class="firstHeading">${title}</h1>
     <div id="bodyContent">
-    <p>${races}</p>
-    <p>${date}</p>
-    <p><a href="${url}" target="_blank">
+    <p><strong>${where}</strong><br />
+    ${date}<br />
+    ${races}<br />
+    <a href="${url}" target="_blank">
     ${url}</a></p>
     <img src="${banner}" width="100px"/>
     </div>
@@ -240,7 +260,63 @@ function initMap() {
     center: austin,
   });
 
-  const infowindow = new google.maps.InfoWindow({});
+  const infowindow = new google.maps.InfoWindow({})
+  const markerGroup = []
+
+  // controls:
+
+  const optionDD = document.createElement("select");
+  optionDD.classList.add("custom-map-control-button");
+  optionDD.setAttribute('id', 'optionDD');
+
+  optionDD.appendChild(new Option("Races: All", "all"));
+  optionDD.appendChild(new Option("100 mi", "100mi"));
+  optionDD.appendChild(new Option("50 mi", "50mi"));
+  optionDD.appendChild(new Option("60k", "60k"));
+  optionDD.appendChild(new Option("50k", "50k"));
+  optionDD.appendChild(new Option("30 k", "30k"));
+  optionDD.appendChild(new Option("26.2 mi", "26.2mi"));
+  optionDD.appendChild(new Option("25 mi", "25mi"));
+  optionDD.appendChild(new Option("20 mi", "20mi"));
+  optionDD.appendChild(new Option("13.1 mi", "13.1mi"));
+  optionDD.appendChild(new Option("15k", "15k"));
+  optionDD.appendChild(new Option("10k", "10k"));
+  optionDD.appendChild(new Option("5k", "5k"));
+  optionDD.appendChild(new Option("1 m Youth", "1miy"));
+  optionDD.appendChild(new Option("2 m Youth", "2miy"));
+
+  optionDD.addEventListener("change", (e) => {
+
+    if (e.target.selectedOptions[0].value === 'all') {
+      for (let i = 0; i < markerGroup.length; i++) {
+        markerGroup[i].setVisible(true)
+      }
+      return
+    }
+
+    const newSelection = []
+    locations.forEach( (item, index) => {
+      if (item.racesAvailable.includes(e.target.selectedOptions[0].value)) {
+        newSelection.push(index)
+      }
+    })
+
+    if (newSelection.length) {
+      for (let i = 0; i < markerGroup.length; i++) {
+        markerGroup[i].setVisible(false)
+      }
+      for (let i = 0; i < newSelection.length; i++) {
+        markerGroup[newSelection[i]].setVisible(true)
+      }
+
+    }
+
+  })
+  
+  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(optionDD);
+  // end of controls
+
+
 
   locations.map((item) => {
     const m = new google.maps.Marker({
@@ -249,8 +325,9 @@ function initMap() {
       map: map,
       title: item.title
     })
+    markerGroup.push(m)
     m.addListener("click", () => {
-      infowindow.setContent(infoWindowContent(item.title, item.date, item.races, item.url, item.banner))
+      infowindow.setContent(infoWindowContent(item.title, item.where, item.date, item.races, item.url, item.banner))
       infowindow.open( {
         anchor: m,
         map: map,
@@ -262,5 +339,5 @@ function initMap() {
 }
 
 
-let selectBox = new vanillaSelectBox("#monthSelect",{"maxHeight":200,search:true});
-console.log(selectBox);
+// let selectBox = new vanillaSelectBox("#monthSelect",{"maxHeight":200,search:true});
+// console.log(selectBox);
