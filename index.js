@@ -341,20 +341,21 @@ function initMap() {
   optionDD.setAttribute('id', 'optionDD');
 
   optionDD.appendChild(new Option("Races: All", "all"));
-  optionDD.appendChild(new Option("100 mi", "100mi"));
-  optionDD.appendChild(new Option("50 mi", "50mi"));
+  optionDD.appendChild(new Option("100mi", "100mi"));
+  optionDD.appendChild(new Option("100k", "100k"));
+  optionDD.appendChild(new Option("50mi", "50mi"));
   optionDD.appendChild(new Option("60k", "60k"));
   optionDD.appendChild(new Option("50k", "50k"));
-  optionDD.appendChild(new Option("30 k", "30k"));
-  optionDD.appendChild(new Option("26.2 mi", "26.2mi"));
-  optionDD.appendChild(new Option("25 mi", "25mi"));
-  optionDD.appendChild(new Option("20 mi", "20mi"));
-  optionDD.appendChild(new Option("13.1 mi", "13.1mi"));
+  optionDD.appendChild(new Option("30k", "30k"));
+  optionDD.appendChild(new Option("26.2mi", "26.2mi"));
+  optionDD.appendChild(new Option("25mi", "25mi"));
+  optionDD.appendChild(new Option("20mi", "20mi"));
+  optionDD.appendChild(new Option("13.1mi", "13.1mi"));
   optionDD.appendChild(new Option("15k", "15k"));
   optionDD.appendChild(new Option("10k", "10k"));
   optionDD.appendChild(new Option("5k", "5k"));
-  optionDD.appendChild(new Option("1 m Youth", "1miy"));
-  optionDD.appendChild(new Option("2 m Youth", "2miy"));
+  optionDD.appendChild(new Option("1m Youth", "1miy"));
+  optionDD.appendChild(new Option("2m Youth", "2miy"));
 
   optionDD.addEventListener("change", (e) => {
 
