@@ -9,6 +9,7 @@ const locations = [
     title: `HOKA Rocky Raccoon 100 Trail Race`,
     races: `100mi, 100k, Youth 1mi`,
     racesAvailable: ['100mi', '100k', '1miy'],
+    monthsAvailable: ['february'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/2ca7f7c6-7c48-481a-bb18-36c4b4f780d8/HOKA+Rocky+Raccoon+100+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/rocky100`
   },
@@ -21,6 +22,7 @@ const locations = [
     title: `HOKA Rocky 50 Trail Race`,
     races: `50 mi, 50k, 13.1 mi (1/2 Marathon), Youth 1 mi`,
     racesAvailable: ['50mi', '50k', '13.1mi', '1miy'],
+    monthsAvailable: ['february'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/a9a95d88-6caf-40aa-9931-a746dad4e51a/HOKA+Rocky+50+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/rocky50`,
   },
@@ -33,6 +35,7 @@ const locations = [
     title: `J&J Race & Trail Running Reunion`,
     races: `50 mi, 30 mi, 20 mi, 10 mi, 4 mi, Youth 1 mi, 20 mi (3-person) Relay, 20 mi Ruck, 4 mi Ruck, King & Queen of the Hill (~1 mi)`,
     racesAvailable: ['50mi', '30mi', '20mi', '10mi', '4mi', '1miy', '20mi', '4mi'],
+    monthsAvailable: ['march'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1603737379712-7FL5YVTNOXB2CVOINR6P/J%26J.jpg?format=500w`,
     url: `https://www.tejastrails.com/jandj`,
   },
@@ -45,6 +48,7 @@ const locations = [
     title: `Hells Hills Trail Race`,
     races: `50 mi, 50k, 25k, 10k, 25k Ruck, 10k Ruck, Youth 1 mi`,
     racesAvailable: ['50mi', '50k', '25k', '10k', '25k', '10k', '1miy'],
+    monthsAvailable: ['april'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615247500096-CNWUKYNYMTQU90XJYHHZ/HELLS+HILLS.jpg?format=300w`,
     url: `https://www.tejastrails.com/hellshills`,
   },
@@ -57,6 +61,7 @@ const locations = [
     title: `Pandora’s Box Of Rox Trail Race`,
     races: `52.4 mi, 26.2 mi, 13.1 mi, 8 mi, 4 mi, Youth 1 mi`,
     racesAvailable: ['52.4mi', '26.2mi', '13.1mi', '8mi', '4mi', '1miy'],
+    monthsAvailable: ['april'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615248807439-4348YO8L168KO945W2YB/PANDORA+LOGO.jpg?format=300w`,
     url: `https://www.tejastrails.com/pandora`,
   },
@@ -69,6 +74,7 @@ const locations = [
     title: `Spider Mountain Trail Race`,
     races: `4 mi, 8 mi, 12 mi, 12 mi Ruck, 4 mi Ruck, Youth 1 mi (By Time) 6 hour, 9 hour, 12 hour/relay`,
     racesAvailable: ['4mi', '8mi', '12mi', '12mi', '4mi', '1miy'],
+    monthsAvailable: ['may'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1618003845015-W2K55Y8LH7WZXZYG0J87/SPIDER+MOUNTAIN.jpg?format=300w`,
     url: `https://www.tejastrails.com/spider`,
   },
@@ -81,6 +87,7 @@ const locations = [
     title: `Texas Trail Running Festival`,
     races: `26.2 mi, 13.1 mi, 10k, 5k, Youth 1 mi`,
     racesAvailable: ['26.2mi', '13.1mi', '10k', '5k', '1miy'],
+    monthsAvailable: ['june'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615411718182-XY18S32T3RTSSYJ7P8HT/FESTIVAL.png?format=300w`,
     url: `https://www.tejastrails.com/festival`,
   },
@@ -93,6 +100,7 @@ const locations = [
     title: `Capt'n Karl's Pedernales Falls`,
     races: `60k, 30k, 20k, 10k, 5k, youth 1 mi`,
     racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
+    monthsAvailable: ['june'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105034732-YUIKI89Z50JHEUGVKXXN/CKTS-Pedernales.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-pedernales`,
   },
@@ -105,6 +113,7 @@ const locations = [
     title: `Capt'n Karl's Muleshoe Bend`,
     races: `60k, 30k, 20k, 10k, 5k, youth 1 mi. `,
     racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
+    monthsAvailable: ['july'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105122846-SYZXIRWOPB2G98OSSW4E/CKTS-Muleshoe.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-muleshoe`,
   },
@@ -117,6 +126,7 @@ const locations = [
     title: `Capt'n Karl's Colorado Bend`,
     races: `60k, 30k, 20k, 10k, youth 1 mi`,
     racesAvailable: ['60k', '30k', '20k', '10k', '1miy'],
+    monthsAvailable: ['august'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616104938720-VM6ZYVR6I9SKRMBY79NC/CKTS-Colorado.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-colorado`,
   },
@@ -129,6 +139,7 @@ const locations = [
     title: `Capt'n Karl's Reveille Peak Ranch`,
     races: `60k, 30k, 20k, 10k, 5k, youth 1 mi`,
     racesAvailable: ['60k', '30k', '20k', '10k', '5k', '1miy'],
+    monthsAvailable: ['august'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1616105224553-G1NS07Z9IVV00AV9RVX6/CKTS-ReveillePeak.jpg?format=300w`,
     url: `https://www.tejastrails.com/ck-reveille`,
   },
@@ -141,6 +152,7 @@ const locations = [
     title: `Mellow Trail Race`,
     races: `26.2 mi, 13.1 mi, 10k, 5k, youth 1 mi`,
     racesAvailable: ['26.2mi', '13.1mi', '10k', '5k', '1miy'],
+    monthsAvailable: ['september'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615670833061-H0LGW5CK3YRISDVF12ZM/MELLOW+LOGO+%28Med%29.jpg?format=300w`,
     url: `https://www.tejastrails.com/mellow`,
   },
@@ -153,6 +165,7 @@ const locations = [
     title: `The Trailway Trail Race`,
     races: `50k, 26.2 mi, 13.1 mi, 10k, 26 mi Ruck, 10k Ruck, 5k, youth mi 1`,
     racesAvailable: ['50k', '26.2mi', '13.1mi', '10k', '26mi', '5k', '1miy'],
+    monthsAvailable: ['september'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1623513467831-JVTJTWRQ4G5L1T2LT2ZZ/Trailway+%28Small+BW%29.jpeg?format=300w`,
     url: `https://www.tejastrails.com/trailway`,
   },
@@ -165,6 +178,7 @@ const locations = [
     title: `Cactus Rose Endurance Trail Race`,
     races: `5 mi, 25 mi, 50 mi, 100 mi, 5 mi ruck, 25 mi ruck, youth 1 mi`,
     racesAvailable: ['5mi', '25mi', '50mi', '100mi', '5mi', '25mi', '1miy'],
+    monthsAvailable: ['october'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615674040760-FURMZ9XUC0IJLCLMB9X5/CACTUS+ROSE.png?format=300w`,
     url: `https://www.tejastrails.com/cactus`,
   },
@@ -177,6 +191,7 @@ const locations = [
     title: `Hill Country Trivium Road Race`,
     races: `50k, 26.2 mi, 13.1 mi, 10k, 5k, Phoenix Family Fun Run`,
     racesAvailable: ['50k', '26.2mi', '13.1mi', '10k', '5k', '1miy'],
+    monthsAvailable: ['november'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/397f6986-9b6b-4f23-8be1-b4838ab72f1f/TRIVIUM+LOGO.jpg?format=300w`,
     url: `https://www.tejastrails.com/trivium`,
   },
@@ -189,6 +204,7 @@ const locations = [
     title: `Wild Hare Trail Race`,
     races: `50 mi, 50k, 25k, 10k, youth 1 mi`,
     racesAvailable: ['50mi', '50k', '25k', '10k', '1miy'],
+    monthsAvailable: ['november'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615833743638-RU08K4CQ6OJGNB2K8V84/WILD+HARE.png?format=300w`,
     url: `https://www.tejastrails.com/wild`,
   },
@@ -201,6 +217,7 @@ const locations = [
     title: `Mosaic Trail Race`,
     races: `50k, 26.2 mi, 13.1 mi, 15k, 10k, 5, youth 1 mi, youth 2 mi`,
     racesAvailable: ['50k', '26.2mi', '13.1mi', '15k', '10k', '5k', '1miy', '2miy'],
+    monthsAvailable: ['december'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/1615838161875-GCVDXWYENC83MFUS6Q8C/MOSAIC.jpg?format=300w`,
     url: `https://www.tejastrails.com/mosaic`,
   },
@@ -213,6 +230,7 @@ const locations = [
     title: `Tinajas Trail Race`,
     races: `52.4 mi, 26.2 mi, 13.1 mi, 10k, Youth 1 mi`,
     racesAvailable: ['52.4mi', '26.2mi', '13.1mi', '10k', '1miy'],
+    monthsAvailable: ['december'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/303424b8-aadd-499c-a8eb-bae69b765519/tinajas.jpg?format=300w`,
     url: `https://www.tejastrails.com/tinajas`,
   },
@@ -225,6 +243,7 @@ const locations = [
     title: `HOKA Bandera Endurance Trail Race`,
     races: `100k, 50k, 25k, Youth 1 mi`,
     racesAvailable: ['100k', '50k', '25k', '1miy'],
+    monthsAvailable: ['january'],
     banner: `https://images.squarespace-cdn.com/content/v1/55a8251be4b08d94f1f6db9d/f4762700-1a1a-48cd-bfcf-f31b21c780fc/HOKA+Bandera+Endurance+Trail+Race?format=300w`,
     url: `https://www.tejastrails.com/bandera`,
   },
@@ -263,9 +282,61 @@ function initMap() {
   const infowindow = new google.maps.InfoWindow({})
   const markerGroup = []
 
+  const optionMonth = document.createElement("select");
+  const optionDD = document.createElement("select");
+
+
+
+
+  optionMonth.classList.add("custom-map-control-button");
+  optionMonth.setAttribute('id', 'optionMonth');
+  optionMonth.appendChild(new Option("Month: All", "all"));
+  optionMonth.appendChild(new Option("January", "january"));
+  optionMonth.appendChild(new Option("February", "february"));
+  optionMonth.appendChild(new Option("March", "march"));
+  optionMonth.appendChild(new Option("April", "april"));
+  optionMonth.appendChild(new Option("May", "may"));
+  optionMonth.appendChild(new Option("June", "june"));
+  optionMonth.appendChild(new Option("July", "july"));
+  optionMonth.appendChild(new Option("August", "august"));
+  optionMonth.appendChild(new Option("September", "september"));
+  optionMonth.appendChild(new Option("October", "october"));
+  optionMonth.appendChild(new Option("November", "november"));
+  optionMonth.appendChild(new Option("December", "december"));
+  optionMonth.addEventListener('change', (e) => {
+    if (e.target.selectedOptions[0].value === 'all') {
+      for (let i = 0; i < markerGroup.length; i++) {
+        markerGroup[i].setVisible(true)
+      }
+      return
+    }
+
+    const newSelection = []
+    locations.forEach( (item, index) => {
+      if (item.monthsAvailable.includes(e.target.selectedOptions[0].value)) {
+        newSelection.push(index)
+      }
+    })
+
+    if (newSelection.length) {
+      
+      optionDD.options[0].selected = true
+      for (let i = 0; i < markerGroup.length; i++) {
+        markerGroup[i].setVisible(false)
+      }
+      for (let i = 0; i < newSelection.length; i++) {
+        markerGroup[newSelection[i]].setVisible(true)
+      }
+
+    }
+
+
+  })
+  
+
   // controls:
 
-  const optionDD = document.createElement("select");
+
   optionDD.classList.add("custom-map-control-button");
   optionDD.setAttribute('id', 'optionDD');
 
@@ -302,6 +373,7 @@ function initMap() {
     })
 
     if (newSelection.length) {
+      optionMonth.options[0].selected = true
       for (let i = 0; i < markerGroup.length; i++) {
         markerGroup[i].setVisible(false)
       }
@@ -312,8 +384,9 @@ function initMap() {
     }
 
   })
-  
+
   map.controls[google.maps.ControlPosition.TOP_RIGHT].push(optionDD);
+  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(optionMonth);
   // end of controls
 
 
